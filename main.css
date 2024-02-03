@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+     font-family: 'Montserrat', sans-serif;    
+}
+
+.header{
+    /* Позтционирование */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/* background */
+ /* background-image:url(".//image/media-header/zan-ilic-0WzeC6JtbHU-unsplash\ 3.jpg"); */
+      background-size: cover ;
+      background-position: center;
+
+    width: 100%;
+    height: 100vh;
+     position: relative;
+    /* display: none;   */
+}
+
+.header-title{
+    margin: 0;
+    color: #FFF;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; 
+    margin-bottom: 25px;
+    
+}
+.header-text{
+    margin: 0;
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+letter-spacing: 3.2px;
+text-transform: uppercase;
+}
+.header-arrow{
+    width: 48px;
+height: 48px;
+
+position: absolute;
+bottom:30px;
+transform: translate(-50,0);
+}
+/* Portfolio */
+.Portfolio{
+    width: 100%;
+    background: #FFF;
+  /* display: none; */
+
+
+}
+.Portfolio-cards-wrapper{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container{
+  max-width: 1100px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 80px;
+background: #FFF;
+}
+.card{
+     margin-bottom: 30px;
+    width:50%;
+height: 375px;
+padding: 20px;
+margin: 0;
+
+box-shadow: 0px 10px 40px 0px rgba(126, 155, 189, 0.35);
+}
+.card:last-child,.card:last-child(2){
+    margin-bottom: 0;
+}
+/* img{
+    width: 100%;
+} */
+.portfolio-header{
+text-align: center;
+color: #000;
+font-size: 46px;
+font-weight: 700;
+line-height: 130%;
+}
+.card-image{
+    width: 100%;
+    /* height: 240px; */
+   margin-bottom: 20px;
+
+
+}
+.card-title{
+    color: #000;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 130%; 
+ padding-bottom: 13px;
+}
+
+.card p{
+    color: #000;
+font-size: 16px;
+font-weight: 400;
+line-height: 130%;
+margin: 0;
+}
+/* footer */
+.footer{
+    width: 100%;
+    background-color: #1E4776;
+    /* padding-top: 45px; */
+    /* padding-bottom: 129px;
+    padding-left: 400px; */
+   /* padding-right: 165px; */
+height: 290px;
+}
+
+.footer-container{
+    
+    max-width: 1100px;
+    /* background-color: aqua; */
+   /* padding-top: 45px; */
+   /* padding-bottom: 129px; */
+   display: flex;
+   justify-content: space-between;
+margin: 0 auto ;
+margin-top: 115px;
+
+   }
+.copyright{
+    width: 30%;
+    margin-left: 20px;
+}
+h2{
+    margin-top: 45px;
+    color: #7E9EC9;
+
+font-size: 28px;
+font-weight: 700;
+line-height: 130%; /* 36.4px */
+}
+.copyright p{
+    color: #7E9EC9;
+
+font-size: 16px;
+
+font-weight: 600;
+line-height: 130%;
+/* margin-bottom: 176px; */
+}
+.socials{
+    width: 30%;
+}
+.socials p{
+margin-top: 53px;
+color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 20.8px */
+
+}
+.sitems{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.button{
+ width: 100%;
+    height: 50px;
+    border-radius: 50px;
+border: 3px solid #FFF;
+margin-top: 53px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: uppercase;
+    background-color: #1E4776;
+
+}
+.but{
+    width: 30%;
+}
+.but p{
+    color: #7E9EC9;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+}
+/* Forest travel */
+.project{
+    width: 100%;
+}
+
+.forest-heading{
+    margin: 0;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    
+    color: #000;
+text-align: center;
+font-size: 46px;
+font-weight: 700;
+line-height: 130%;
+}
+#forest-container{
+    width: 100%;
+text-align: center;
+
+}
+img{
+    width: 100%;
+}
+
+.about {
+max-width: 730px;
+text-align: center;
+color: #000;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+margin-top: 69;
+margin: 0 auto;
+
+}
+
+.back{
+width: 301px;
+    height: 61px;
+    border-radius: 50px;
+    border: 3px solid #275BEC;
+
+color: #275BEC;
+font-size: 16px;
+font-weight: 700;
+line-height: 130%; 
+text-transform: uppercase; 
+/* padding-top: 16px; */
+margin-bottom: 120px;
+
+}
+.goback{
+    text-decoration: none;
+}

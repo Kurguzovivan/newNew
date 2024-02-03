@@ -1,0 +1,74 @@
+@media(max-width:1120px){
+    
+    
+} 
+@media(max-width:800px){
+.header-title{
+        font-size: 30px;
+    }
+    .header-text{
+        font-size: 12px;
+    }
+}
+@media(max-width:500px){
+    .header-text{
+        font-size: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* .header{} */
+   
+}
+/* Portfolio */
+@media (max-width:600px){
+    
+    .Portfolio-cards-wrapper{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+}
+@media (max-width:550px) {
+    .footer-container{
+        flex-direction: column-reverse;
+align-items: center;
+    }
+    .footer{
+        height: 100%;
+        
+    }
+    .but{
+        width: 80%;
+
+        text-align: center;
+    }
+    .socials{
+        width: 80%;
+        text-align: center;
+    
+    }
+    .copyright{
+        width: 80%;
+        text-align: center;
+    }
+}
+/* Forest-travel */
+@media(max-width:800px){ 
+
+.forest-heading{
+   font-size: 35px;
+}
+} 
+@media(max-width:600px){ 
+
+    .forest-heading{
+       font-size: 25px;
+    }
+    } 
+    @media(max-width:400px){ 
+
+        .forest-heading{
+           font-size: 15px;
+        }
+        } 
